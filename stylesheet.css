@@ -73,6 +73,14 @@ body
     padding: 70px 10% 0;
 
 }
+/* Adjust background for smaller screens */
+@media (max-width: 768px) 
+{
+    body 
+    {
+      background-size: contain;
+    }
+}
 
 .home-content{
     max-width: 600px;
